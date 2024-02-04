@@ -14,6 +14,10 @@ public class ZooManagement {
 
         System.out.println(zooName+ " comporte " +nbrCage+ " cages");
         Animal lion = new Animal();
-        Zoo myZoo = new Zoo();
+        Zoo myZoo = new Zoo("Mon zoo", "Ma ville", 25);
+        myZoo.displayZoo();
+        System.out.println(myZoo);
+        System.out.println(myZoo.toString());
+
     }
 }
