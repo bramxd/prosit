@@ -13,6 +13,7 @@ public class ZooManagement {
 
 
         System.out.println(zooName+ " comporte " +nbrCage+ " cages");
-
+        Animal lion = new Animal();
+        Zoo myZoo = new Zoo();
     }
 }
